@@ -16,13 +16,27 @@
 
 
 
-// let array1 = [1, 2, 3];
-// let array2 = [2, 30, 1];
+// let x = [1, 2, 3];
+// let y = [2, 30, 1];
+// function conc(arr, arr2) {
+//   let copy = [...arr];
+//   for (let i = 0; i < arr2.length; i++) {
+//     if (arr.indexOf(arr2[i]) === -1) {
+//       copy.push(arr2[i]);
+//     }
+//   }
+//   return copy;
+// }
 
-// const x = Object.assign(array1,array2)
-// console.log(x)
+// let newArr = x.concat(y);
+// let set = new Set();
 
+// for (let i = 0; i < newArr.length; i++) {
+//   set.add(newArr[i]);
+// }
+// console.log(set);
 
+// console.log(conc(x, y));
 
 
 // task 4 ///////
